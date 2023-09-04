@@ -4,8 +4,8 @@ metadata:
   id: afs-planton-cloud-gcp-uc1
   name: gcp-uc1
 spec:
-  bufToken: redacted
-  bufUsername: leftbin-swarup
+  bufToken: some-new-token
+  bufUsername: leftbin-suresh
   companyId: planton
   gcpArtifactRegistry:
     gcpCloudAccountId: ca-planton-gcp
