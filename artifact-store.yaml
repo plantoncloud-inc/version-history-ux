@@ -1,0 +1,15 @@
+apiVersion: product.planton.cloud/v1alpha1
+kind: ArtifactStore
+metadata:
+  id: afs-planton-cloud-gcp-uc1
+  name: gcp-uc1
+spec:
+  bufToken: redacted
+  bufUsername: leftbin-swarup
+  companyId: planton
+  gcpArtifactRegistry:
+    gcpCloudAccountId: ca-planton-gcp
+    projectId: ca-planton-gcp-sh-zg
+    region: us-central1
+  productId: planton-cloud
+  repoProvider: GCP_ARTIFACT_REGISTRY
